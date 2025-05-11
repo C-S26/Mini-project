@@ -143,7 +143,7 @@ class FaceRecognitionSystem:
         if not is_new_person:
             self.update_attendance(best_match)
         return best_match, best_score, is_new_person
-        #added 5-minute check to prevent multiple attendance being logged
+
     def update_attendance(self, person_name):
         current_time = datetime.datetime.now()
         if person_name in self.last_detection:
