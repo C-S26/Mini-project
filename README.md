@@ -2,7 +2,7 @@
 
 A real-time face recognition-based attendance system using **TensorFlow**, **OpenCV**, and **Tkinter**. This system detects and recognizes faces from a live webcam feed, logs attendance, and provides accuracy metrics.
 
-## 🚀 Features
+## Features
 
 - Face enrollment with two-session capture (varied lighting/angles)
 - Real-time face detection and recognition
@@ -11,11 +11,11 @@ A real-time face recognition-based attendance system using **TensorFlow**, **Ope
 - Basic GUI using Tkinter
 - Accuracy calculation based on detection confidence
 
-## 🖼 GUI Preview
+## GUI Preview
 
 > GUI includes a video frame, control buttons (Enroll, Start, Stop), and a live accuracy display.
 
-## 📦 Requirements
+## Requirements
 
 - Python 3.x
 - OpenCV
@@ -30,7 +30,7 @@ Install dependencies with:
 pip install opencv-python tensorflow numpy pandas pillow
 ```
 
-## 📁 Directory Structure
+## Directory Structure
 
 ```
 FaceRecognitionSystem/
@@ -39,7 +39,7 @@ FaceRecognitionSystem/
 ├── face_recognition_app.py # Main application script
 ```
 
-## 🛠 How to Run
+## How to Run
 
 ```
 python face_recognition_app.py
